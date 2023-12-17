@@ -26,7 +26,7 @@ const CustomRoutes = (props) => {
         <Route path="/collaborate" exact component={CollabPageWrapper} />
         <Route path="/blogs" exact component={BlogPage} />
         <Route path="/blog/:id" exact component={ParticularBlog} />
-        <Route path="/about" exact component={About} />
+        {/* <Route path="/about" exact component={About} /> */}
         <Route path="/profile" exact component={Me} />
         {auth.isLoggedIn ? (
           <Switch>

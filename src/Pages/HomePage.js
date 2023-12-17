@@ -119,9 +119,9 @@ function HomePage() {
               />
 
               <Button name="Code - Editor" clicked={roomHandler} />
-              <Button name="LockOut - Championship" clicked={contestHandler} />
+              {/* <Button name="LockOut - Championship" clicked={contestHandler} />
               <Button name="Blogs" clicked={blogHandler} />
-              <Button name="Profile" clicked={profileHandler} />
+              <Button name="Profile" clicked={profileHandler} /> */}
             </Grid>
           </>
         )}
